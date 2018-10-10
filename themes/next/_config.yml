@@ -54,16 +54,16 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  powered: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
+  custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -166,11 +166,11 @@ toc:
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
 
-Creative Commons 4.0 International License.
-http://creativecommons.org/
-Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons: by-nc-sa
-creative_commons:
+#creative_commons:
 
 sidebar:
   # Sidebar Position, available value: left | right (only for Pisces | Gemini).
@@ -259,7 +259,7 @@ post_copyright:
 # ---------------------------------------------------------------
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: true
+mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
@@ -333,7 +333,7 @@ font:
   codes:
     external: true
     family: Courier New
-    size: 25
+    size: 15
 
 
 # ---------------------------------------------------------------
